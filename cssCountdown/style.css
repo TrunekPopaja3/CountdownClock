@@ -1,0 +1,192 @@
+@keyframes con1{
+    0%{left:16rem; bottom: 4rem;}
+    100%{left:44rem; bottom: 32rem}  
+}
+@keyframes con2{
+    0%{bottom: 2rem; left: 25rem;}
+    100%{bottom: 40rem; left: 18rem;}  
+}
+@keyframes con3{
+    0%{  right: 25rem; bottom: 3rem;}
+    100%{right:12rem; bottom:40rem;}  
+}
+@keyframes con4{
+    0%{ bottom: 5rem; left:30rem;}
+    50%{ bottom: 12rem; left:12rem;}
+    100%{bottom: 45rem; left:35rem}  
+}
+@keyframes con5{
+    0%{bottom: 8rem; right: 40rem;}
+    100%{bottom: 40rem; right: 20rem;}  
+}
+@keyframes con6{
+    0%{ bottom: 9rem; right: 35rem;}
+    50%{ bottom: 16rem; right: 20rem;}
+    100%{bottom: 45rem; right: 50rem;}  
+}
+@keyframes con7{
+    0%{bottom:2rem; right: 70rem;}
+    100%{bottom: 42rem; right: 70rem;}  
+}
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imgCountdown/birthday.jpg);
+    background-size: 100vw;
+    color: white;
+}
+.heading{
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 5rem;
+    background-color:rgba(179, 176, 177, 0.8);
+    border-radius: 2rem;
+}
+.countdown{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(179, 176, 177, 0.8);
+    border-radius: 5rem;
+    margin-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+   
+}
+
+.time{
+    margin: 2rem;
+    
+}
+#days, #hours, #minutes, #seconds{
+    font-size: 3rem;
+}
+
+.confettii-1{
+    position: absolute;
+    bottom: 4rem;
+    left: 16rem;
+    width: 2rem;
+    height: 1rem;
+    background-color: red;
+    border-start-end-radius: 30%;
+    border-top-left-radius: 100%;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-timing-function: linear;
+    animation-name: con1;
+}
+.confettii-2{
+    position: absolute;
+    bottom: 2rem;
+    left: 25rem;
+    width: 2rem;
+    height: 1rem;
+    background-color: blue;
+    border-bottom-left-radius: 12rem;
+    border-bottom-right-radius: 20rem;
+    border-top-left-radius: 50rem;
+    border-bottom-right-radius: 5rem;
+    rotate: 45deg;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-timing-function: linear;
+    animation-name: con2;
+}
+.confettii-3{
+    position: absolute;
+    right: 25rem;
+    bottom: 3rem;
+    width: 2rem;
+    height: 1rem;
+    background-color: green;
+    border-bottom-left-radius: 12rem;
+    border-bottom-right-radius: 5rem;
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    rotate: 212deg;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-timing-function: linear;
+    animation-name: con3;
+}
+.confettii-4{
+    position: absolute;
+    bottom: 5rem;
+    left:30rem;
+    width: 2rem;
+    height: 1rem;
+    background-color: yellow;
+    border-bottom-left-radius: 12rem;
+    border-bottom-right-radius: 5rem;
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    rotate: 15deg;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-timing-function: linear;
+    animation-name: con4;
+}
+.confettii-5{
+    position: absolute;
+    bottom: 8rem;
+    right: 40rem;
+    width: 2rem;
+    height: 1rem;
+    background-color: purple;
+    border-start-end-radius: 30%;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 10%;
+    rotate: 45deg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-timing-function: linear;
+    animation-name: con5;
+}
+.confettii-6{
+    position: absolute;
+    bottom: 9rem;
+    right: 55rem;
+    width: 2rem;
+    height: 1rem;
+    background-color: pink;
+    border-start-end-radius: 30%;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 10%;
+    rotate: 73deg;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-timing-function: linear;
+    animation-name: con6;
+}
+
+
+.confettii-7{
+    position: absolute;
+    bottom: 2rem;
+    right: 35rem;
+    width: 2rem;
+    height: 1rem;
+    background-color:green;
+    border-start-end-radius: 30%;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 10%;
+    rotate: 6deg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-timing-function: linear;
+    animation-name: con7;
+
+}
+
